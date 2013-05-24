@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		737A81ED174F634C00A744CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737A81EC174F634C00A744CE /* UIKit.framework */; };
+		737A81EF174F634C00A744CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737A81EE174F634C00A744CE /* Foundation.framework */; };
+		737A81F1174F634C00A744CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 737A81F0174F634C00A744CE /* CoreGraphics.framework */; };
+		737A81F7174F634C00A744CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 737A81F5174F634C00A744CE /* InfoPlist.strings */; };
+		737A81F9174F634C00A744CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 737A81F8174F634C00A744CE /* main.m */; };
+		737A81FD174F634C00A744CE /* MixiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 737A81FC174F634C00A744CE /* MixiAppDelegate.m */; };
+		737A81FF174F634C00A744CE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 737A81FE174F634C00A744CE /* Default.png */; };
+		737A8201174F634C00A744CE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737A8200174F634C00A744CE /* Default@2x.png */; };
+		737A8203174F634C00A744CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737A8202174F634C00A744CE /* Default-568h@2x.png */; };
+		737A8206174F634C00A744CE /* MixiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737A8205174F634C00A744CE /* MixiViewController.m */; };
+		737A8209174F634C00A744CE /* MixiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 737A8207174F634C00A744CE /* MixiViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		737A81E9174F634C00A744CE /* jankenGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jankenGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		737A81EC174F634C00A744CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		737A81EE174F634C00A744CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		737A81F0174F634C00A744CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		737A81F4174F634C00A744CE /* jankenGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "jankenGame-Info.plist"; sourceTree = "<group>"; };
+		737A81F6174F634C00A744CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		737A81F8174F634C00A744CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		737A81FA174F634C00A744CE /* jankenGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jankenGame-Prefix.pch"; sourceTree = "<group>"; };
+		737A81FB174F634C00A744CE /* MixiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixiAppDelegate.h; sourceTree = "<group>"; };
+		737A81FC174F634C00A744CE /* MixiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiAppDelegate.m; sourceTree = "<group>"; };
+		737A81FE174F634C00A744CE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		737A8200174F634C00A744CE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		737A8202174F634C00A744CE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		737A8204174F634C00A744CE /* MixiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixiViewController.h; sourceTree = "<group>"; };
+		737A8205174F634C00A744CE /* MixiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiViewController.m; sourceTree = "<group>"; };
+		737A8208174F634C00A744CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MixiViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		737A81E6174F634C00A744CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737A81ED174F634C00A744CE /* UIKit.framework in Frameworks */,
+				737A81EF174F634C00A744CE /* Foundation.framework in Frameworks */,
+				737A81F1174F634C00A744CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		737A81E0174F634C00A744CE = {
+			isa = PBXGroup;
+			children = (
+				737A81F2174F634C00A744CE /* jankenGame */,
+				737A81EB174F634C00A744CE /* Frameworks */,
+				737A81EA174F634C00A744CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		737A81EA174F634C00A744CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				737A81E9174F634C00A744CE /* jankenGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		737A81EB174F634C00A744CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				737A81EC174F634C00A744CE /* UIKit.framework */,
+				737A81EE174F634C00A744CE /* Foundation.framework */,
+				737A81F0174F634C00A744CE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		737A81F2174F634C00A744CE /* jankenGame */ = {
+			isa = PBXGroup;
+			children = (
+				737A81FB174F634C00A744CE /* MixiAppDelegate.h */,
+				737A81FC174F634C00A744CE /* MixiAppDelegate.m */,
+				737A8204174F634C00A744CE /* MixiViewController.h */,
+				737A8205174F634C00A744CE /* MixiViewController.m */,
+				737A8207174F634C00A744CE /* MixiViewController.xib */,
+				737A81F3174F634C00A744CE /* Supporting Files */,
+			);
+			path = jankenGame;
+			sourceTree = "<group>";
+		};
+		737A81F3174F634C00A744CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				737A81F4174F634C00A744CE /* jankenGame-Info.plist */,
+				737A81F5174F634C00A744CE /* InfoPlist.strings */,
+				737A81F8174F634C00A744CE /* main.m */,
+				737A81FA174F634C00A744CE /* jankenGame-Prefix.pch */,
+				737A81FE174F634C00A744CE /* Default.png */,
+				737A8200174F634C00A744CE /* Default@2x.png */,
+				737A8202174F634C00A744CE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		737A81E8174F634C00A744CE /* jankenGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 737A820C174F634C00A744CE /* Build configuration list for PBXNativeTarget "jankenGame" */;
+			buildPhases = (
+				737A81E5174F634C00A744CE /* Sources */,
+				737A81E6174F634C00A744CE /* Frameworks */,
+				737A81E7174F634C00A744CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jankenGame;
+			productName = jankenGame;
+			productReference = 737A81E9174F634C00A744CE /* jankenGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		737A81E1174F634C00A744CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Mixi;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "原田 勝信";
+			};
+			buildConfigurationList = 737A81E4174F634C00A744CE /* Build configuration list for PBXProject "jankenGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 737A81E0174F634C00A744CE;
+			productRefGroup = 737A81EA174F634C00A744CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				737A81E8174F634C00A744CE /* jankenGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		737A81E7174F634C00A744CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737A81F7174F634C00A744CE /* InfoPlist.strings in Resources */,
+				737A81FF174F634C00A744CE /* Default.png in Resources */,
+				737A8201174F634C00A744CE /* Default@2x.png in Resources */,
+				737A8203174F634C00A744CE /* Default-568h@2x.png in Resources */,
+				737A8209174F634C00A744CE /* MixiViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		737A81E5174F634C00A744CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				737A81F9174F634C00A744CE /* main.m in Sources */,
+				737A81FD174F634C00A744CE /* MixiAppDelegate.m in Sources */,
+				737A8206174F634C00A744CE /* MixiViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		737A81F5174F634C00A744CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				737A81F6174F634C00A744CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		737A8207174F634C00A744CE /* MixiViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				737A8208174F634C00A744CE /* en */,
+			);
+			name = MixiViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		737A820A174F634C00A744CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		737A820B174F634C00A744CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		737A820D174F634C00A744CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jankenGame/jankenGame-Prefix.pch";
+				INFOPLIST_FILE = "jankenGame/jankenGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		737A820E174F634C00A744CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jankenGame/jankenGame-Prefix.pch";
+				INFOPLIST_FILE = "jankenGame/jankenGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		737A81E4174F634C00A744CE /* Build configuration list for PBXProject "jankenGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737A820A174F634C00A744CE /* Debug */,
+				737A820B174F634C00A744CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		737A820C174F634C00A744CE /* Build configuration list for PBXNativeTarget "jankenGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				737A820D174F634C00A744CE /* Debug */,
+				737A820E174F634C00A744CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 737A81E1174F634C00A744CE /* Project object */;
+}
