@@ -18,6 +18,9 @@
 		737A8203174F634C00A744CE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 737A8202174F634C00A744CE /* Default-568h@2x.png */; };
 		737A8206174F634C00A744CE /* MixiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 737A8205174F634C00A744CE /* MixiViewController.m */; };
 		737A8209174F634C00A744CE /* MixiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 737A8207174F634C00A744CE /* MixiViewController.xib */; };
+		737A8212174F70B800A744CE /* gu.png in Resources */ = {isa = PBXBuildFile; fileRef = 737A820F174F70B800A744CE /* gu.png */; };
+		737A8213174F70B800A744CE /* ch.png in Resources */ = {isa = PBXBuildFile; fileRef = 737A8210174F70B800A744CE /* ch.png */; };
+		737A8214174F70B800A744CE /* pa.png in Resources */ = {isa = PBXBuildFile; fileRef = 737A8211174F70B800A744CE /* pa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		737A8204174F634C00A744CE /* MixiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MixiViewController.h; sourceTree = "<group>"; };
 		737A8205174F634C00A744CE /* MixiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MixiViewController.m; sourceTree = "<group>"; };
 		737A8208174F634C00A744CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MixiViewController.xib; sourceTree = "<group>"; };
+		737A820F174F70B800A744CE /* gu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gu.png; sourceTree = "<group>"; };
+		737A8210174F70B800A744CE /* ch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ch.png; sourceTree = "<group>"; };
+		737A8211174F70B800A744CE /* pa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 		737A81F2174F634C00A744CE /* jankenGame */ = {
 			isa = PBXGroup;
 			children = (
+				737A820F174F70B800A744CE /* gu.png */,
+				737A8210174F70B800A744CE /* ch.png */,
+				737A8211174F70B800A744CE /* pa.png */,
 				737A81FB174F634C00A744CE /* MixiAppDelegate.h */,
 				737A81FC174F634C00A744CE /* MixiAppDelegate.m */,
 				737A8204174F634C00A744CE /* MixiViewController.h */,
@@ -164,6 +173,9 @@
 				737A8201174F634C00A744CE /* Default@2x.png in Resources */,
 				737A8203174F634C00A744CE /* Default-568h@2x.png in Resources */,
 				737A8209174F634C00A744CE /* MixiViewController.xib in Resources */,
+				737A8212174F70B800A744CE /* gu.png in Resources */,
+				737A8213174F70B800A744CE /* ch.png in Resources */,
+				737A8214174F70B800A744CE /* pa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
